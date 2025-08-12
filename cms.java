@@ -16,7 +16,7 @@ class Cms {
         Scanner sc = new Scanner(System.in);
         boolean bool = true;
         while (bool) {
-            System.out.println("Choose any options (1-6):\n 1) Add New Contacts\n 2) Search For Contact\n 3) Update Existing Contacts\n 4) Delete Contacts\n 5) Print All Contacts\n 6) Exit");
+            System.out.println("Choose any options (1-6):\n 1.Add New Contacts\n 2.Search For Contact\n 3.Update Existing Contacts\n 4.Delete Contacts\n 5.Print All Contacts\n 6. Exit");
             int opt = sc.nextInt();
             sc.nextLine(); // Consume newline character
             switch (opt) {
