@@ -40,7 +40,7 @@ class Cms {
                     for (Info info : cms) {
                         if (info.name.equalsIgnoreCase(name)) {
                             System.out.println("Contact Found: " + info.num);
-                            found = true;
+                            flag = true;
                             break;
                         }
                     }
